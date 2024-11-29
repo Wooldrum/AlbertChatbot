@@ -1,4 +1,4 @@
-# primitive-chatbot
-the worst chatbot you will ever try
+# AlfredChatbot
+
 
 You need python and you need to run pip install nltk before using
