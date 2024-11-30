@@ -1,10 +1,15 @@
+# ========================================
+# DELUXE EDITION COOL MESSAGES !!! 
+# ========================================
+
+# THIS CODE NEEDS super_advanced_conversation.py TO RUN! 
+
 import logging
 import os
 import json
-import random  # Add this import
+import random 
 from nltk.corpus import wordnet
 
-# Set the load order for this addon to run after the main intents system
 LOAD_ORDER = 2
 
 def augment_intents_with_synonyms(intents):
