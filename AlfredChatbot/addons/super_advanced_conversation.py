@@ -1,3 +1,8 @@
+# =========================================================================================================================================
+# SUPER Advanced Conversation Addon - Using code by Catharis - kaggle.com/code/fahmiayari/chatbot-intent-classification-pytorch
+# =========================================================================================================================================
+# Changes made by Wooldrum on 11/30/2024
+
 import logging
 import random
 import os
@@ -65,9 +70,9 @@ def create_default_intents():
                     "Hya there"
                 ],
                 "responses": [
-                    "Hi human, please tell me your GeniSys user",
-                    "Hello human, please tell me your GeniSys user",
-                    "Hola human, please tell me your GeniSys user"
+                    "Hi, how's it going?",
+                    "Hello, please tell me your user",
+                    "Hola amigo!"
                 ],
                 "extension": {
                     "function": "",
@@ -173,13 +178,13 @@ def create_default_intents():
                     "Hello hope you are doing well?"
                 ],
                 "responses": [
-                    "Hello, I am great, how are you? Please tell me your GeniSys user",
-                    "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
-                    "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
-                    "Hi, I am great, how are you? Please tell me your GeniSys user",
-                    "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
-                    "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
-                    "Hi, good thank you, how are you? Please tell me your GeniSys user"
+                    "Hello, I am great, how are you?",
+                    "Hello, how are you? I am great thanks!",
+                    "Hello, I am good thank you, how are you?",
+                    "Hi, I am great, how are you?",
+                    "Hi, how are you? I am great thanks!",
+                    "Hi, I am good thank you, how are you?",
+                    "Hi, good thank you, how are you?"
                 ],
                 "extension": {
                     "function": "",
@@ -321,9 +326,9 @@ def create_default_intents():
                     "Tell me your name?"
                 ],
                 "responses": [
-                    "You can call me Geni",
-                    "You may call me Geni",
-                    "Call me Geni"
+                    "You can call me Alfred",
+                    "You may call me Alfred",
+                    "Call me Alfred"
                 ],
                 "extension": {
                     "function": "",
@@ -630,7 +635,7 @@ def create_default_intents():
                     "You are very intelligent",
                     "You are a very intelligent girl",
                     "You are a genius",
-                    "Clever girl",
+                    "Clever!",
                     "Genius"
                 ],
                 "responses": [
