@@ -1,5 +1,5 @@
 # ========================================
-# Core Chatbot - Modular and Extensible
+# Core Chatbot - Alfred, by Wooldrum
 # ========================================
 
 import os
